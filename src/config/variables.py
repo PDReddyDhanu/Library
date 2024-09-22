@@ -1,0 +1,3 @@
+class Config:
+    SQLALCHEMY_DATABASE_URI = 'mysql://vjit:Str0ngP%40ssw0rd%21@161.97.186.196:9321/vjit'
+    SQLALCHEMY_TRACK_MODIFICATIONS = False

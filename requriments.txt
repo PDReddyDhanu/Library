@@ -1,0 +1,4 @@
+flask
+flask-sqlalchemy
+mysqlclient
+# Add any other required packages here
