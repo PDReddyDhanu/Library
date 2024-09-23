@@ -1,4 +1,5 @@
-# This file can store any global variables or constants used throughout the application.
-# Example:
-# API_VERSION = "v1"
-# BASE_URL = "/api/"
+import json
+from pkgutil import get_data
+
+CONFIG = json.loads(get_data(
+    'config', 'config.json').decode())
